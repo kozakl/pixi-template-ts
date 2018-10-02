@@ -1,0 +1,23 @@
+{
+  "description": "Pixi-TS-Template",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "yarn test -- --watchAll",
+    "upload": "babel-node ./tools/tasks/upload.js"
+  },
+  "dependencies": {
+    "pixi.js": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.5.7",
+    "fs-extra": "^4.0.1",
+    "jest": "^20.0.4",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^2.6.1",
+    "webpack-core": "^0.6.9"
+  }
+}
